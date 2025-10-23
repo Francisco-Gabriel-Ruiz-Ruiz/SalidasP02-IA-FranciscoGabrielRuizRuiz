@@ -1,0 +1,228 @@
+===============================================================
+
+Iteración 1
+
+Laberinto:
+█.▲..
+E▲█▲.
+.███▲
+.█..▲
+.██.S
+
+Número de nodos generados: 15
+Nodos generados (en orden): (4, 4), (3, 3), (3, 4), (4, 3), (2, 4), (3, 2), (1, 3), (1, 4), (0, 2), (0, 3), (0, 4), (0, 1), (1, 1), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 14
+Nodos inspeccionados (en orden): (4, 4), (3, 3), (3, 4), (4, 3), (3, 2), (2, 4), (1, 3), (1, 4), (0, 2), (0, 3), (1, 1), (0, 4), (0, 1), (1, 0)
+
+Camino real: (4, 4)
+Coste del camino real hasta el momento: 0
+
+Camino propuesto por A*: (4, 4) - (3, 4) - (2, 4) - (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 36
+
+Número de pasos: 1
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 2
+
+Laberinto:
+█.▲..
+E▲█▲.
+.███▲
+.█..✱
+.██.S
+
+Número de nodos generados: 15
+Nodos generados (en orden): (3, 4), (2, 4), (3, 3), (4, 3), (4, 4), (1, 3), (1, 4), (3, 2), (0, 2), (0, 3), (0, 4), (0, 1), (1, 1), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 14
+Nodos inspeccionados (en orden): (3, 4), (2, 4), (3, 3), (1, 3), (1, 4), (3, 2), (4, 3), (4, 4), (0, 2), (0, 3), (1, 1), (0, 4), (0, 1), (1, 0)
+
+Camino real: (4, 4) - (3, 4)
+Coste del camino real hasta el momento: 5
+
+Camino propuesto por A*: (3, 4) - (2, 4) - (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 31
+
+Número de pasos: 2
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 3
+
+Laberinto:
+█.▲..
+E▲█▲.
+.███✱
+.█..✱
+.██.S
+
+Número de nodos generados: 15
+Nodos generados (en orden): (2, 4), (1, 3), (1, 4), (3, 3), (3, 4), (0, 2), (0, 3), (0, 4), (3, 2), (4, 3), (4, 4), (0, 1), (1, 1), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 12
+Nodos inspeccionados (en orden): (2, 4), (1, 3), (1, 4), (3, 3), (3, 4), (0, 2), (3, 2), (1, 1), (0, 3), (0, 1), (0, 4), (1, 0)
+
+Camino real: (4, 4) - (3, 4) - (2, 4)
+Coste del camino real hasta el momento: 10
+
+Camino propuesto por A*: (2, 4) - (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 26
+
+Número de pasos: 3
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 4
+
+Laberinto:
+█.▲..
+E▲█✱.
+.███✱
+.█..✱
+.██.S
+
+Número de nodos generados: 10
+Nodos generados (en orden): (1, 3), (0, 2), (0, 3), (0, 4), (1, 4), (2, 4), (0, 1), (1, 1), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 7
+Nodos inspeccionados (en orden): (1, 3), (0, 2), (0, 3), (1, 1), (1, 4), (0, 1), (1, 0)
+
+Camino real: (4, 4) - (3, 4) - (2, 4) - (1, 3)
+Coste del camino real hasta el momento: 17
+
+Camino propuesto por A*: (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 19
+
+Número de pasos: 4
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 5
+
+Laberinto:
+█.✱..
+E▲█✱.
+.███✱
+.█..✱
+.██.S
+
+Número de nodos generados: 7
+Nodos generados (en orden): (0, 2), (0, 1), (0, 3), (1, 1), (1, 3), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 4
+Nodos inspeccionados (en orden): (0, 2), (1, 1), (0, 1), (1, 0)
+
+Camino real: (4, 4) - (3, 4) - (2, 4) - (1, 3) - (0, 2)
+Coste del camino real hasta el momento: 24
+
+Camino propuesto por A*: (0, 2) - (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 12
+
+Número de pasos: 5
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 6
+
+Laberinto:
+█.✱..
+E✱█✱.
+.███✱
+.█..✱
+.██.S
+
+Número de nodos generados: 5
+Nodos generados (en orden): (1, 1), (0, 1), (0, 2), (1, 0), (2, 0)
+
+Número de nodos inspeccionados: 2
+Nodos inspeccionados (en orden): (1, 1), (1, 0)
+
+Camino real: (4, 4) - (3, 4) - (2, 4) - (1, 3) - (0, 2) - (1, 1)
+Coste del camino real hasta el momento: 31
+
+Camino propuesto por A*: (1, 1) - (1, 0)
+Coste del camino propuesto por A*: 5
+
+Número de pasos: 6
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+===============================================================
+
+Iteración 7
+
+Laberinto:
+█.✱..
+E✱█✱.
+.███✱
+.█..✱
+.██.S
+
+Número de nodos generados: 1
+Nodos generados (en orden): (1, 0)
+
+Número de nodos inspeccionados: 1
+Nodos inspeccionados (en orden): (1, 0)
+
+Camino real: (4, 4) - (3, 4) - (2, 4) - (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste del camino real hasta el momento: 36
+
+Camino propuesto por A*: (1, 0)
+Coste del camino propuesto por A*: 0.0
+
+Número de pasos: 7
+Número de reintentos: 0
+
+Proporción media de obstáculos presentes en el entorno: 32%
+
+
+===============================================================
+
+>>> ¡El algoritmo ha encontrado la salida al laberinto dinámico! <<<
+
+Número de pasos: 7
+Camino final: (4, 4) - (3, 4) - (2, 4) - (1, 3) - (0, 2) - (1, 1) - (1, 0)
+Coste: 36
+
+===============================================================
+
+Parámetros del algoritmo
+
+> Costes de movimiento
+Coste en línea recta: 5
+Coste en diagonal: 7
+
+> Parámetros heurísticos
+Peso heurístico (variable W): 3
+
+> Probabilidades de cambio de estado
+P(casilla libre → bloqueada): 50%
+P(obstáculo → libre): 50%
+
+> Restricciones globales
+Máx. proporción de obstáculos: 25%
+Máx. reintentos: 5
+
+> Propiedades del laberinto
+Estado: estático (no cambiante)
+
+===============================================================
